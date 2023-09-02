@@ -1,0 +1,73 @@
+wsl command . 
+
+wsl to check 
+wsl --status = check what is installed in your system .
+wsl -l -v = to see what is instaall how many distribution is install in your system . 
+wsl --unregister distor name to completely uninstall distro from our pc .
+wsl --install and distor name if not want do this wsl --install --no-distibuation
+wsl --set-defaut-version 1 ,2 to set wsl version 
+after insatlling normal type wsl == it open linux with your custom user name , wsl -u username -d ubuntu open in root level 
+
+
+if you wan not  to login with custom user set default user ==ubuntu config  --default-user root 
+
+if run so many distor 
+wsl --shutdown 
+
+for specific to stop . 
+
+
+-t disto name .
+
+foe switching cuser to root .
+
+not direct first set . 
+
+
+getting ip of you user distor  open linux shell 
+
+ubuntu hostname -i ,  or ip a
+
+-changinh host name 
+
+login wsl 
+ hostname - tell what is name 
+
+for change , sudo nano /etc/wsl2.conf 
+
+add this things inside it .
+
+
+[network]
+hostname = hostname 
+generatehosts = false 
+
+ctrl x and y one by one do to save it .
+
+after changeing your hostname , and you sudo apt update . it show error put give passowrd it do . but we check from file . 
+
+login to linus 
+
+sudo nano etc/hosts open 
+
+change the previous name to new name of host and it can work .
+
+each config you have to exit fon user to powershell than check which is run than we 
+
+wsl --shutdown 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
